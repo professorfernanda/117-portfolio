@@ -1,0 +1,63 @@
+/* About Me Section */
+.about-section {
+    padding: 2%;
+}
+
+.about-image-container {
+    width: 30%;
+}
+
+.about-image-container img {
+    width: 50%;
+}
+
+.about-description-container {
+    width: 70%;
+}
+
+.about-description-container  p {
+    width: 70%;
+    margin: 2rem 0;
+}
+
+.skills-list { 
+    width: 70%;
+    flex-wrap: wrap;
+    gap:1rem;
+    margin-top: 2rem;
+}
+
+/* Projects Section */
+
+.porjects-section{
+    margin: 2rem 0;
+    padding: rem;
+}
+
+.project-card {
+    width: 25rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+}
+
+.project-card img {
+    width: 100%;
+}
+
+.project-card:hover {
+    opacity: 0.5;
+    border: solid 1px var(--primary-color);
+}
+
+.project-skills-list  {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.projects-list {
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
